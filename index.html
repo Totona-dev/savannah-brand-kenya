@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Savannah Brand Kenya delivers corporate branding, commercial printing, and dependable business supplies for organizations across Kenya."
+    />
+    <meta name="theme-color" content="#173b2b" />
+    <title>Savannah Brand Kenya | Print. Brand. Supply.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              savannah: {
+                ink: "#173b2b",
+                forest: "#24513b",
+                gold: "#d6a63a",
+                cream: "#f6f8f5",
+                muted: "#707a72",
+              },
+            },
+            fontFamily: {
+              sans: ["DM Sans", "sans-serif"],
+              display: ["Manrope", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="font-sans antialiased">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header fixed inset-x-0 top-0 z-50">
+      <nav
+        class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8 lg:px-10"
+        aria-label="Main navigation"
+      >
+        <a class="brand-lockup" href="#home" aria-label="Savannah Brand Kenya home">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="assets/savannah-logo.png" alt="" />
+          </span>
+          <span class="brand-name">
+            <span>SAVANNAH</span>
+            <span class="brand-subtitle">BRAND KENYA</span>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+        >
+          <span></span><span></span>
+        </button>
+
+        <div class="nav-menu" id="primary-menu">
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="button button-dark nav-cta" href="#quote">Get a quote <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero relative overflow-hidden" id="home" aria-labelledby="hero-title">
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="mx-auto grid max-w-7xl items-center gap-10 px-5 pb-16 pt-32 sm:px-8 sm:pb-20 sm:pt-36 lg:grid-cols-[1.05fr_0.95fr] lg:px-10 lg:pb-24 lg:pt-40">
+          <div class="hero-copy relative z-10">
+            <p class="eyebrow eyebrow-light"><span></span> Kenya-wide business solutions</p>
+            <h1 class="mt-6 max-w-3xl font-display text-5xl font-semibold leading-[1.07] tracking-[-0.055em] text-white sm:text-6xl lg:text-[4.6rem]" id="hero-title">
+              Make your brand<br class="hidden sm:block" />
+              <span class="text-savannah-gold">impossible to miss.</span>
+            </h1>
+            <p class="mt-6 max-w-xl text-base leading-7 text-white/70 sm:text-lg sm:leading-8">
+              Premium bulk printing, corporate branding and dependable supply solutions—made for the way Kenyan businesses work.
+            </p>
+            <div class="mt-9 flex flex-wrap items-center gap-5">
+              <a class="button button-gold" href="#quote">Request a quote <span aria-hidden="true">↗</span></a>
+              <a class="text-link text-white" href="#services">Explore what we do <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-proof mt-12 flex flex-wrap gap-x-8 gap-y-4 border-t border-white/15 pt-6">
+              <div><strong>One partner</strong><span>From brief to delivery</span></div>
+              <div><strong>Built for business</strong><span>Reliable at every scale</span></div>
+            </div>
+          </div>
+          <div class="hero-visual relative">
+            <div class="hero-image-frame">
+              <img
+                src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"
+                alt="Colorful visual identity and creative branding materials"
+                fetchpriority="high"
+              />
+            </div>
+            <div class="hero-image-note">
+              <span class="note-icon" aria-hidden="true">✳</span>
+              <span><strong>Made to make an impression.</strong><small>Thoughtful details. Tangible results.</small></span>
+            </div>
+            <span class="hero-index" aria-hidden="true">01 / 03</span>
+          </div>
+        </div>
+        <div class="hero-bottom-line" aria-hidden="true"><span></span></div>
+      </section>
+
+      <section class="section-padding" id="services" aria-labelledby="services-title">
+        <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+          <div class="section-heading grid gap-5 md:grid-cols-[1fr_0.65fr] md:items-end">
+            <div>
+              <p class="eyebrow"><span></span> What we do</p>
+              <h2 class="section-title mt-4" id="services-title">Good work deserves<br class="hidden sm:block" /> a great finish.</h2>
+            </div>
+            <p class="max-w-md text-base leading-7 text-slate-600 md:justify-self-end">
+              From your first idea to the final delivery, we bring the people, print and practical essentials that keep your business moving.
+            </p>
+          </div>
+
+          <div class="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M14 17h20v24H14zM19 17V9h10v8M19 25h10M19 31h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="m8 12 4-4m24 4-4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              </div>
+              <span class="service-number">01</span>
+              <h3>Corporate Branding<br />&amp; Merchandise</h3>
+              <p>Branded apparel, promotional products and thoughtful touchpoints that put your identity in good hands.</p>
+              <a href="#quote" class="card-link">Explore branding <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M13 8h17l6 6v26H13zM30 8v7h6M18 22h13M18 28h13M18 34h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="m8 17 4-4M8 25h4M8 33l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              </div>
+              <span class="service-number">02</span>
+              <h3>Commercial &amp;<br />Large-format Printing</h3>
+              <p>Sharp, consistent print for campaigns, everyday business needs and big ideas that need room to stand out.</p>
+              <a href="#quote" class="card-link">Explore print <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M9 20h30v21H9zM14 20V9h20v11M14 27h20M14 33h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M19 14h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              </div>
+              <span class="service-number">03</span>
+              <h3>Office &amp; Institutional<br />Supplies</h3>
+              <p>Everyday essentials and procurement support to help offices, schools and organizations run smoothly.</p>
+              <a href="#quote" class="card-link">Explore supplies <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M12 18h24v20H12zM16 18V12h16v6M18 24h12M18 30h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M22 8h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              </div>
+              <span class="service-number">04</span>
+              <h3>Promotional<br />&amp; Gifting</h3>
+              <p>Curated corporate gifts, event giveaways and branded keepsakes designed to leave a lasting impression.</p>
+              <a href="#quote" class="card-link">Explore gifting <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M13 10h22v28H13zM18 16h12M18 22h12M18 28h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M13 36l6-6m16 6-6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              </div>
+              <span class="service-number">05</span>
+              <h3>Paper<br />Printing</h3>
+              <p>Menus, wedding programs, event stationery and polished paper goods for memorable moments and everyday communication.</p>
+              <a href="#quote" class="card-link">Explore paper <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section section-padding" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+          <div class="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+            <div>
+              <p class="eyebrow"><span></span> A little of what we do</p>
+              <h2 class="section-title mt-4" id="portfolio-title">Made to be remembered.</h2>
+            </div>
+            <p class="max-w-sm text-base leading-7 text-slate-600">A selection of the materials, moments and details that bring brands to life.</p>
+          </div>
+          <div class="portfolio-grid mt-11">
+            <figure class="portfolio-item">
+              <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Premium notebook and stationery arranged on a desk" loading="lazy" />
+              <figcaption><span>01 / Print &amp; paper</span><strong>Everyday, elevated.</strong></figcaption>
+            </figure>
+            <figure class="portfolio-item">
+              <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Creative team sharing ideas around a table" loading="lazy" />
+              <figcaption><span>02 / Brand experiences</span><strong>Made to work together.</strong></figcaption>
+            </figure>
+            <figure class="portfolio-item">
+              <img src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Colorful printed creative materials in a design studio" loading="lazy" />
+              <figcaption><span>03 / Creative production</span><strong>Color that carries through.</strong></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="paper-section section-padding" aria-labelledby="paper-section-title">
+        <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+          <div class="section-heading mb-10">
+            <p class="eyebrow"><span></span> Paper printing</p>
+            <h2 class="section-title mt-4" id="paper-section-title">Books, printed publications and paper goods made to last.</h2>
+          </div>
+
+          <div class="print-showcase-grid">
+            <article class="print-showcase-card">
+              <img src="https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=crop&w=1200&q=80" alt="Large-scale book and publication printing on an offset press" loading="lazy" />
+              <div class="print-showcase-copy">
+                <h3>Books &amp; Print Production</h3>
+              </div>
+            </article>
+
+            <article class="print-showcase-card">
+              <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1200&q=80" alt="Short-run print-on-demand books and printed materials" loading="lazy" />
+              <div class="print-showcase-copy">
+                <h3>Print-on-Demand</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-showcase section-padding" aria-labelledby="product-showcase-title">
+        <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+          <div class="section-heading mb-10">
+            <p class="eyebrow"><span></span> Product categories</p>
+            <h2 class="section-title mt-4" id="product-showcase-title">Made for everyday business, gifting and brand moments.</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Black Kenyan-inspired model wearing branded apparel and merchandise" loading="lazy" />
+              <div class="product-copy">
+                <span>Branding</span>
+                <h3>Corporate branding</h3>
+                <p>Workwear, uniforms, packaging and branded essentials designed to keep your business consistent.</p>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=900&q=80" alt="Black professional in a Kenyan business setting reviewing print products" loading="lazy" />
+              <div class="product-copy">
+                <span>Print</span>
+                <h3>Printing</h3>
+                <p>High-impact banners, signage, reports and branded stationery for campaigns and daily operations.</p>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80" alt="Black professional posing with office supplies in a local workplace" loading="lazy" />
+              <div class="product-copy">
+                <span>Supplies</span>
+                <h3>Office supplies</h3>
+                <p>Everyday essentials, procurement support and practical items that keep teams moving efficiently.</p>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80" alt="Black model showcasing branded promotional and gifting products" loading="lazy" />
+              <div class="product-copy">
+                <span>Gifting</span>
+                <h3>Promotional &amp; gifting</h3>
+                <p>Thoughtful corporate gifts, event giveaways and keepsakes made to leave a memorable impression.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="clothing-section" aria-labelledby="clothing-title">
+        <div class="mx-auto flex max-w-7xl flex-col gap-7 px-5 py-12 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-10">
+          <div class="clothing-copy">
+            <p class="eyebrow eyebrow-light"><span></span> Meet our other side</p>
+            <h2 id="clothing-title">Savannah Clothing Line</h2>
+            <p>Discover the collection and shop with us on Instagram or our WhatsApp catalog.</p>
+          </div>
+          <div class="clothing-visual" aria-label="Savannah Clothing Line collection image">
+            <img
+              src="assets/WhatsApp%20Image%202026-10-08%20at%2011.42.37%20AM.jpeg"
+              alt="Family wearing Savannah Clothing Line designs"
+              loading="lazy"
+            />
+          </div>
+          <div class="clothing-actions">
+            <a
+              class="button button-gold"
+              href="https://wa.me/c/254700452299"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Browse the Savannah Clothing Line WhatsApp catalog (opens in a new tab)"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 11.7a7.8 7.8 0 0 1-11.5 6.9L4 20l1.4-4.3A7.8 7.8 0 1 1 20 11.7Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M9 8.5c.4 2.1 2.2 3.9 4.4 4.5l1.1-1.1 2 .9c-.1 1.1-.9 1.8-2 1.8-3.5-.4-6.4-3.3-6.8-6.7 0-1.1.7-1.9 1.8-2l.9 2L9 8.5Z" fill="currentColor" />
+              </svg>
+              WhatsApp catalog
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="button button-outline-light"
+              href="https://www.instagram.com/savannah_clothingline?stkn=MWxyaThuZ3E3cHlvYg%3D%3D&amp;utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Savannah Clothing Line on Instagram (opens in a new tab)"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.7" />
+                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7" />
+                <circle cx="17.5" cy="6.8" r="1" fill="currentColor" />
+              </svg>
+              Follow on Instagram
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section section-padding" id="quote" aria-labelledby="quote-title">
+        <div class="mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-[0.78fr_1.22fr] lg:gap-20 lg:px-10">
+          <div class="quote-intro">
+            <p class="eyebrow eyebrow-light"><span></span> Start a conversation</p>
+            <h2 class="mt-5 font-display text-4xl font-semibold leading-tight tracking-[-0.045em] text-white sm:text-5xl" id="quote-title">
+              Tell us what<br />you have in mind.
+            </h2>
+            <p class="mt-5 max-w-md text-base leading-7 text-white/65">
+              Share a few details and our team will help you find the right solution for your business.
+            </p>
+            <div class="quote-aside mt-10">
+              <span class="quote-aside-mark" aria-hidden="true">✳</span>
+              <p>Clear brief. Thoughtful recommendations.<br />A quote built around your needs.</p>
+            </div>
+          </div>
+          <form class="quote-form" action="#" method="get">
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="name">Your name <span aria-hidden="true">*</span></label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="e.g. Amina Wanjiku" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Work email <span aria-hidden="true">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.co.ke" required />
+              </div>
+              <div class="form-field">
+                <label for="phone">Phone number</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+254 7XX XXX XXX" />
+              </div>
+              <div class="form-field">
+                <label for="organization">Organization</label>
+                <input id="organization" name="organization" type="text" autocomplete="organization" placeholder="Your company or institution" />
+              </div>
+              <div class="form-field">
+                <label for="service">What do you need? <span aria-hidden="true">*</span></label>
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option>Corporate branding &amp; Merchandise</option>
+                  <option>Promotional &amp; Gifting</option>
+                  <option>Commercial &amp; large-format Printing</option>
+                  <option>Office &amp; Institutional Supplies</option>                  <option>Paper printing</option>                  <option>Multiple services</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="quantity">Estimated quantity</label>
+                <input id="quantity" name="quantity" type="text" placeholder="e.g. 500 units" />
+              </div>
+              <div class="form-field form-field-wide">
+                <label for="message">Tell us a little more <span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" rows="4" placeholder="What are you looking to create or source?" required></textarea>
+              </div>
+            </div>
+            <div class="form-footer">
+              <p><span aria-hidden="true">*</span> Required fields</p>
+              <button class="button button-gold" type="submit">Send your enquiry <span aria-hidden="true">↗</span></button>
+            </div>
+            <p class="form-note">Submitting this form opens your email app with the enquiry details ready to send.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-7 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-10">
+        <a class="brand-lockup footer-brand" href="#home" aria-label="Savannah Brand Kenya home">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="assets/savannah-logo.png" alt="" />
+          </span>
+          <span class="brand-name"><span>SAVANNAH</span><span class="brand-subtitle">BRAND KENYA</span></span>
+        </a>
+        <p>Print. Brand. Supply. &nbsp; Made for business in Kenya.</p>
+        <div class="footer-contact" aria-label="Contact Savannah Brand Kenya">
+          <a class="footer-contact-link" href="tel:+254700452299" aria-label="Call Savannah Brand Kenya at 07 00 45 22 99">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M7.2 3.8h3l1.5 4-2 1.5a14.1 14.1 0 0 0 5 5l1.5-2 4 1.5v3c0 1.1-.9 2-2 2A15.4 15.4 0 0 1 5.2 5.8c0-1.1.9-2 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            07 00 45 22 99
+          </a>
+          <a class="footer-contact-link" href="mailto:savannahbrandkenya@gmail.com" aria-label="Email Savannah Brand Kenya at savannahbrandkenya@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="1.7" />
+              <path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            savannahbrandkenya@gmail.com
+          </a>
+        </div>
+        <a class="footer-top" href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navMenu = document.querySelector("#primary-menu");
+
+      menuToggle.addEventListener("click", () => {
+        const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+        menuToggle.setAttribute("aria-expanded", String(!isOpen));
+        menuToggle.setAttribute("aria-label", isOpen ? "Open navigation menu" : "Close navigation menu");
+        navMenu.classList.toggle("is-open", !isOpen);
+      });
+
+      navMenu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          menuToggle.setAttribute("aria-expanded", "false");
+          menuToggle.setAttribute("aria-label", "Open navigation menu");
+          navMenu.classList.remove("is-open");
+        });
+      });
+
+      const quoteForm = document.querySelector(".quote-form");
+      quoteForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const data = new FormData(quoteForm);
+        const subject = encodeURIComponent(`Quote enquiry: ${data.get("service")}`);
+        const body = encodeURIComponent(
+          [
+            `Name: ${data.get("name")}`,
+            `Email: ${data.get("email")}`,
+            `Phone: ${data.get("phone") || "Not provided"}`,
+            `Organization: ${data.get("organization") || "Not provided"}`,
+            `Service: ${data.get("service")}`,
+            `Estimated quantity: ${data.get("quantity") || "Not provided"}`,
+            "",
+            `Message: ${data.get("message")}`,
+          ].join("\n"),
+        );
+        window.location.href = `mailto:?subject=${subject}&body=${body}`;
+      });
+    </script>
+  </body>
+</html>
