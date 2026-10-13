@@ -23,6 +23,8 @@ body {
   min-width: 320px;
   background: var(--ink);
   color: #173b2b;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.5;
 }
 
 ::selection {
@@ -569,6 +571,103 @@ body {
   text-align: center;
 }
 
+.packaging-section {
+  background: #fff;
+}
+
+.packaging-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.packaging-card {
+  position: relative;
+  min-height: 24rem;
+  overflow: hidden;
+  background: #34493c;
+}
+
+.packaging-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 24rem;
+  object-fit: cover;
+  transition: transform 350ms ease;
+}
+
+.packaging-card:hover img {
+  transform: scale(1.035);
+}
+
+.packaging-card::after {
+  position: absolute;
+  inset: 35% 0 0;
+  background: linear-gradient(transparent, rgba(14, 35, 24, 0.82));
+  content: "";
+}
+
+.packaging-copy {
+  position: absolute;
+  right: 1.3rem;
+  bottom: 1.2rem;
+  left: 1.3rem;
+  z-index: 1;
+  color: #fff;
+}
+
+.packaging-copy span {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.packaging-copy h3 {
+  margin: 0.35rem 0 0;
+  font-family: Manrope, sans-serif;
+  font-size: clamp(1.3rem, 2vw, 1.8rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.packaging-feature {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid #e4e9e3;
+  background: #f8f5f1;
+  padding: clamp(1.25rem, 4vw, 2.5rem);
+}
+
+.packaging-feature-copy h3 {
+  margin: 0.8rem 0 0;
+  color: var(--ink);
+  font-family: Manrope, sans-serif;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 1.15;
+}
+
+.packaging-feature-copy > p:last-child {
+  max-width: 26rem;
+  margin: 0.8rem 0 0;
+  color: #647168;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.packaging-feature > img {
+  display: block;
+  width: 100%;
+  max-height: 32rem;
+  object-fit: contain;
+}
+
 .paper-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1046,6 +1145,15 @@ body {
     grid-template-rows: 16rem 13rem;
   }
 
+  .packaging-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .packaging-feature {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
   .paper-grid,
   .product-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1065,6 +1173,11 @@ body {
   .product-grid {
     grid-template-columns: 1fr;
   }
+
+  .packaging-grid {
+    grid-template-columns: 1fr;
+  }
+
   .hero-image-frame {
     height: 19rem;
   }
