@@ -744,6 +744,32 @@ body {
   object-fit: cover;
 }
 
+.branding-image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding: 0.65rem 0.65rem 0;
+}
+
+.branding-image-gallery figure {
+  min-width: 0;
+  margin: 0;
+  background: #f7f6f3;
+}
+
+.branding-image-gallery img {
+  height: 8rem;
+  object-fit: contain;
+}
+
+.branding-image-gallery figcaption {
+  padding: 0.45rem 0.55rem 0.55rem;
+  color: #647168;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-align: center;
+}
+
 .product-copy {
   padding: 1.25rem 1.2rem 1.4rem;
 }
