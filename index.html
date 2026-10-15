@@ -70,7 +70,17 @@
         <div class="nav-menu" id="primary-menu">
           <a class="nav-link" href="#services">Services</a>
           <a class="nav-link" href="#portfolio">Portfolio</a>
-          <a class="nav-link" href="#packaging">Packaging</a>
+          <details class="nav-solutions">
+            <summary class="nav-link">Solutions <span aria-hidden="true">⌄</span></summary>
+            <div class="nav-solutions-menu">
+              <a href="#corporate-branding">Corporate branding</a>
+              <a href="#commercial-printing">Commercial printing</a>
+              <a href="#institutional-supplies">Office &amp; institutional supplies</a>
+              <a href="#paper-printing">Paper printing</a>
+              <a href="#packaging">Packaging solutions</a>
+              <a href="#promotional-items">Promotional items</a>
+            </div>
+          </details>
           <a class="button button-dark nav-cta" href="#quote">Get a quote <span aria-hidden="true">↗</span></a>
         </div>
       </nav>
@@ -101,8 +111,8 @@
           <div class="hero-visual relative">
             <div class="hero-image-frame">
               <img
-                src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"
-                alt="Colorful visual identity and creative branding materials"
+                src="assets/hero-brand-design.jpeg"
+                alt="Savannah Brand Kenya designer creating a gold brand identity on a tablet"
                 fetchpriority="high"
               />
             </div>
@@ -110,7 +120,6 @@
               <span class="note-icon" aria-hidden="true">✳</span>
               <span><strong>Made to make an impression.</strong><small>Thoughtful details. Tangible results.</small></span>
             </div>
-            <span class="hero-index" aria-hidden="true">01 / 03</span>
           </div>
         </div>
         <div class="hero-bottom-line" aria-hidden="true"><span></span></div>
@@ -139,7 +148,7 @@
               <span class="service-number">01</span>
               <h3>Corporate Branding<br />&amp; Merchandise</h3>
               <p>Branded apparel, promotional products and thoughtful touchpoints that put your identity in good hands.</p>
-              <a href="#product-branding" class="card-link">Explore branding <span aria-hidden="true">↗</span></a>
+              <a href="#corporate-branding" class="card-link">Explore branding <span aria-hidden="true">↗</span></a>
             </article>
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
@@ -151,7 +160,7 @@
               <span class="service-number">02</span>
               <h3>Commercial &amp;<br />Large-format Printing</h3>
               <p>Sharp, consistent print for campaigns, everyday business needs and big ideas that need room to stand out.</p>
-              <a href="#product-printing" class="card-link">Explore print <span aria-hidden="true">↗</span></a>
+              <a href="#commercial-printing" class="card-link">Explore print <span aria-hidden="true">↗</span></a>
             </article>
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
@@ -163,7 +172,7 @@
               <span class="service-number">03</span>
               <h3>Office &amp; Institutional<br />Supplies</h3>
               <p>Everyday essentials and procurement support to help offices, schools and organizations run smoothly.</p>
-              <a href="#product-supplies" class="card-link">Explore supplies <span aria-hidden="true">↗</span></a>
+              <a href="#institutional-supplies" class="card-link">Explore supplies <span aria-hidden="true">↗</span></a>
             </article>
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
@@ -175,7 +184,7 @@
               <span class="service-number">04</span>
               <h3>Promotional<br />&amp; Gifting</h3>
               <p>Curated corporate gifts, event giveaways and branded keepsakes designed to leave a lasting impression.</p>
-              <a href="#product-gifting" class="card-link">Explore gifting <span aria-hidden="true">↗</span></a>
+              <a href="#promotional-items" class="card-link">Explore gifting <span aria-hidden="true">↗</span></a>
             </article>
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
@@ -216,17 +225,59 @@
           </div>
           <div class="portfolio-grid mt-11">
             <figure class="portfolio-item">
-              <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Premium notebook and stationery arranged on a desk" loading="lazy" />
+              <img src="assets/portfolio-print-paper.jpeg" alt="Branded paper products including shopping bags, notebooks, business cards, gift packaging and letterhead" loading="lazy" />
               <figcaption><span>01 / Print &amp; paper</span><strong>Everyday, elevated.</strong></figcaption>
             </figure>
             <figure class="portfolio-item">
-              <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Creative team sharing ideas around a table" loading="lazy" />
+              <img src="assets/portfolio-brand-experience.jpeg" alt="Savannah Brand Kenya team wearing coordinated branded polo shirts" loading="lazy" />
               <figcaption><span>02 / Brand experiences</span><strong>Made to work together.</strong></figcaption>
             </figure>
             <figure class="portfolio-item">
-              <img src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Colorful printed creative materials in a design studio" loading="lazy" />
+              <img src="assets/portfolio-print-production.jpeg" alt="Large-format print production with staff checking ink colors and output" loading="lazy" />
               <figcaption><span>03 / Creative production</span><strong>Color that carries through.</strong></figcaption>
             </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="corporate-branding-section section-padding" id="corporate-branding" aria-labelledby="corporate-branding-title">
+        <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+          <div class="section-heading grid gap-5 md:grid-cols-[1fr_0.65fr] md:items-end">
+            <div>
+              <p class="eyebrow"><span></span> Corporate branding &amp; merchandise</p>
+              <h2 class="section-title mt-4" id="corporate-branding-title">Put your brand on what your team wears.</h2>
+            </div>
+            <p class="max-w-md text-base leading-7 text-slate-600 md:justify-self-end">
+              Create a consistent, professional look with custom-branded apparel for teams, events and organizations.
+            </p>
+          </div>
+
+          <div class="promotional-grid mt-11">
+            <article class="promotional-card">
+              <img src="assets/corporate-branded-apparel.jpeg" alt="Branded hoodies, T-shirts and caps in multiple colors" loading="lazy" />
+              <div class="promotional-copy">
+                <span>01 / Branded apparel</span>
+                <h3>Hoodies, T-shirts &amp; caps</h3>
+              </div>
+            </article>
+            <article class="promotional-card">
+              <img src="assets/branded-polo-shirt.jpeg" alt="Orange polo shirt with custom school branding" loading="lazy" />
+              <div class="promotional-copy">
+                <span>02 / Team wear</span>
+                <h3>Branded polo shirts</h3>
+              </div>
+            </article>
+            <article class="promotional-card">
+              <img src="assets/branded-corporate-shirt.jpeg" alt="White corporate shirt with custom logo and contrast trim" loading="lazy" />
+              <div class="promotional-copy">
+                <span>03 / Workwear</span>
+                <h3>Corporate shirts</h3>
+              </div>
+            </article>
+          </div>
+
+          <div class="mt-8 flex justify-center">
+            <a class="button button-dark" href="#quote">Discuss corporate branding <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </section>
@@ -277,6 +328,97 @@
 
           <div class="mt-8 flex justify-center">
             <a class="button button-dark" href="#quote">Discuss paper printing <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="commercial-print-section section-padding" id="commercial-printing" aria-labelledby="commercial-print-title">
+        <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+          <div class="section-heading grid gap-5 md:grid-cols-[1fr_0.65fr] md:items-end">
+            <div>
+              <p class="eyebrow"><span></span> Commercial &amp; large-format printing</p>
+              <h2 class="section-title mt-4" id="commercial-print-title">Make your brand impossible to miss.</h2>
+            </div>
+            <p class="max-w-md text-base leading-7 text-slate-600 md:justify-self-end">
+              From office and shop branding to eye-catching indoor and outdoor signs, bring your brand into view.
+            </p>
+          </div>
+
+          <div class="commercial-print-grid mt-11">
+            <article class="commercial-print-card">
+              <img src="assets/office-branding-reception.jpeg" alt="Savannah Brand Kenya identity applied across a modern office meeting room" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>01 / Workplace branding</span>
+                <h3>Branded office interiors</h3>
+              </div>
+            </article>
+            <article class="commercial-print-card">
+              <img src="assets/office-branding-wall-mural.jpeg" alt="Large-format Savannah Brand Kenya wall graphic in an office reception" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>02 / Large-format graphics</span>
+                <h3>Reception wall murals</h3>
+              </div>
+            </article>
+            <article class="commercial-print-card">
+              <img src="assets/shop-branding-display.jpeg" alt="Branded Samsung retail shop with illuminated displays and product counters" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>03 / Retail branding</span>
+                <h3>Shop branding</h3>
+              </div>
+            </article>
+            <article class="commercial-print-card">
+              <img src="assets/savannah-signage-catalogue.jpeg" alt="Catalogue of illuminated storefront, pylon, hanging and reception sign styles" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>04 / Signage</span>
+                <h3>Custom sign solutions</h3>
+              </div>
+            </article>
+            <article class="commercial-print-card">
+              <img src="assets/signage-storefront-examples.jpeg" alt="Examples of storefront signs, shop fascias and outdoor business signage" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>05 / Storefront signs</span>
+                <h3>Shopfront &amp; fascia signs</h3>
+              </div>
+            </article>
+            <article class="commercial-print-card">
+              <img src="assets/signage-exterior-examples.jpeg" alt="Examples of outdoor business signs, projecting signs and pylon signs" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>06 / Outdoor signage</span>
+                <h3>Pylon &amp; projecting signs</h3>
+              </div>
+            </article>
+            <article class="commercial-print-card">
+              <img src="assets/large-format-roll-up-banners.jpeg" alt="Two Savannah Brand Kenya roll-up banners displayed at full height" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>07 / Event displays</span>
+                <h3>Roll-up banners</h3>
+              </div>
+            </article>
+            <article class="commercial-print-card">
+              <img src="assets/large-format-outdoor-banner.jpeg" alt="Custom Savannah Brand Kenya banner installed on a fence" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>08 / Outdoor promotions</span>
+                <h3>Custom outdoor banners</h3>
+              </div>
+            </article>
+            <article class="commercial-print-card">
+              <img src="assets/vehicle-branding-catalogue.jpeg" alt="Vehicle branding concepts for vans, cars, pickup trucks and motorcycles" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>09 / Vehicle branding</span>
+                <h3>Fleet wraps &amp; graphics</h3>
+              </div>
+            </article>
+            <article class="commercial-print-card">
+              <img src="assets/vehicle-branding-fleet-van.jpeg" alt="Commercial van covered in a colorful promotional vehicle wrap" loading="lazy" />
+              <div class="commercial-print-copy">
+                <span>10 / Fleet promotions</span>
+                <h3>Branded vehicle wraps</h3>
+              </div>
+            </article>
+          </div>
+
+          <div class="mt-8 flex justify-center">
+            <a class="button button-dark" href="#quote">Discuss commercial printing <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </section>
@@ -332,6 +474,139 @@
         </div>
       </section>
 
+      <section class="supplies-section section-padding" id="institutional-supplies" aria-labelledby="institutional-supplies-title">
+        <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+          <div class="section-heading grid gap-5 md:grid-cols-[1fr_0.65fr] md:items-end">
+            <div>
+              <p class="eyebrow"><span></span> Office &amp; institutional supplies</p>
+              <h2 class="section-title mt-4" id="institutional-supplies-title">The essentials your people need to get things done.</h2>
+            </div>
+            <p class="max-w-md text-base leading-7 text-slate-600 md:justify-self-end">
+              From school and corporate uniforms to PPE, T-shirts and everyday stationery, source what your team needs in one place.
+            </p>
+          </div>
+
+          <div class="supplies-showcase-grid mt-11">
+            <article class="supplies-showcase-card">
+              <img src="assets/uniform-supply.jpeg" alt="School and staff uniform range for schools and organizations" loading="lazy" />
+              <div class="supplies-showcase-copy">
+                <span>01 / Uniforms</span>
+                <h3>School &amp; staff uniforms</h3>
+              </div>
+            </article>
+            <article class="supplies-showcase-card">
+              <img src="assets/safety-wear-ppe-range.jpeg" alt="Protective workwear, boots, helmets and safety gloves" loading="lazy" />
+              <div class="supplies-showcase-copy">
+                <span>02 / Workplace safety</span>
+                <h3>Safety wear &amp; PPE</h3>
+              </div>
+            </article>
+            <article class="supplies-showcase-card">
+              <img src="assets/safety-wear-ppe-portfolio.jpeg" alt="Savannah Brand Kenya certified safety wear and personal protective equipment range" loading="lazy" />
+              <div class="supplies-showcase-copy">
+                <span>03 / Protective equipment</span>
+                <h3>Work-ready protection</h3>
+              </div>
+            </article>
+            <article class="supplies-showcase-card">
+              <img src="assets/tshirt-supply-collection.jpeg" alt="Round-neck T-shirts available in multiple colors and sizes" loading="lazy" />
+              <div class="supplies-showcase-copy">
+                <span>04 / Apparel</span>
+                <h3>T-shirt supply</h3>
+              </div>
+            </article>
+            <article class="supplies-showcase-card">
+              <img src="assets/tshirt-supply-pricing.jpeg" alt="T-shirt product styles, size availability and pricing" loading="lazy" />
+              <div class="supplies-showcase-copy">
+                <span>05 / T-shirt range</span>
+                <h3>Styles, sizes &amp; pricing</h3>
+              </div>
+            </article>
+            <article class="supplies-showcase-card">
+              <img src="assets/office-stationery-supplies.jpeg" alt="Office stationery, paper, files, writing tools and office equipment" loading="lazy" />
+              <div class="supplies-showcase-copy">
+                <span>06 / Office essentials</span>
+                <h3>Office &amp; stationery</h3>
+              </div>
+            </article>
+          </div>
+
+          <div class="mt-8 flex justify-center">
+            <a class="button button-dark" href="#quote">Discuss your supply needs <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="promotional-section section-padding" id="promotional-items" aria-labelledby="promotional-items-title">
+        <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+          <div class="section-heading grid gap-5 md:grid-cols-[1fr_0.65fr] md:items-end">
+            <div>
+              <p class="eyebrow"><span></span> Promotional items</p>
+              <h2 class="section-title mt-4" id="promotional-items-title">Branded merchandise people love to use.</h2>
+            </div>
+            <p class="max-w-md text-base leading-7 text-slate-600 md:justify-self-end">
+              Make your brand part of everyday moments with practical giveaways, corporate gifts and custom merchandise.
+            </p>
+          </div>
+
+          <div class="promotional-grid mt-11">
+            <article class="promotional-card">
+              <img src="assets/promo-merchandise-portfolio.jpeg" alt="Assortment of custom branded promotional products and giveaways" loading="lazy" />
+              <div class="promotional-copy">
+                <span>01 / Giveaways</span>
+                <h3>Promotional merchandise</h3>
+              </div>
+            </article>
+            <article class="promotional-card">
+              <img src="assets/promo-notebooks-diaries.jpeg" alt="Savannah branded corporate notebooks and diaries" loading="lazy" />
+              <div class="promotional-copy">
+                <span>02 / Stationery</span>
+                <h3>Notebooks &amp; diaries</h3>
+              </div>
+            </article>
+            <article class="promotional-card">
+              <img src="assets/promo-corporate-apparel.jpeg" alt="Custom branded corporate polos, shirts, caps and workwear" loading="lazy" />
+              <div class="promotional-copy">
+                <span>03 / Apparel</span>
+                <h3>Branded corporate wear</h3>
+              </div>
+            </article>
+            <article class="promotional-card">
+              <img src="assets/promo-corporate-gifts.jpeg" alt="Corporate gift set with branded apparel, drinkware, bags and accessories" loading="lazy" />
+              <div class="promotional-copy">
+                <span>04 / Gift sets</span>
+                <h3>Corporate gift sets</h3>
+              </div>
+            </article>
+            <article class="promotional-card">
+              <img src="assets/promo-branded-merchandise-green.jpeg" alt="Green branded merchandise including a cap, notebook, drinkware and accessories" loading="lazy" />
+              <div class="promotional-copy">
+                <span>05 / Everyday use</span>
+                <h3>Custom branded essentials</h3>
+              </div>
+            </article>
+            <article class="promotional-card">
+              <img src="assets/promo-branded-gifts.jpeg" alt="Branded corporate gifts including bottles, mugs, umbrella, tote and accessories" loading="lazy" />
+              <div class="promotional-copy">
+                <span>06 / Appreciation</span>
+                <h3>Gifts &amp; keepsakes</h3>
+              </div>
+            </article>
+            <article class="promotional-card">
+              <img src="assets/personalized-gifting-fleece-blankets.jpeg" alt="Personalized fleece blankets embroidered with names and Kenyan flag details" loading="lazy" />
+              <div class="promotional-copy">
+                <span>07 / Personalized gifts</span>
+                <h3>Custom fleece blankets</h3>
+              </div>
+            </article>
+          </div>
+
+          <div class="mt-8 flex justify-center">
+            <a class="button button-dark" href="#quote">Discuss promotional items <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
       <section class="product-showcase section-padding" aria-labelledby="product-showcase-title">
         <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
           <div class="section-heading mb-10">
@@ -360,28 +635,34 @@
             </article>
 
             <article class="product-card" id="product-printing">
-              <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=900&q=80" alt="Black professional in a Kenyan business setting reviewing print products" loading="lazy" />
+              <a href="#commercial-printing" aria-label="Explore commercial and large-format printing">
+                <img class="supplies-image" src="assets/office-branding-wall-mural.jpeg" alt="Large-format branded office wall mural" loading="lazy" />
+              </a>
               <div class="product-copy">
                 <span>Print</span>
-                <h3>Printing</h3>
+                <h3>Commercial printing</h3>
                 <p>High-impact banners, signage, reports and branded stationery for campaigns and daily operations.</p>
               </div>
             </article>
 
             <article class="product-card" id="product-supplies">
-              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80" alt="Black professional posing with office supplies in a local workplace" loading="lazy" />
+              <a href="#institutional-supplies" aria-label="Explore office and institutional supplies">
+                <img class="supplies-image" src="assets/office-stationery-supplies.jpeg" alt="Office stationery and equipment supply assortment" loading="lazy" />
+              </a>
               <div class="product-copy">
-                <span>Supplies</span>
-                <h3>Office supplies</h3>
-                <p>Everyday essentials, procurement support and practical items that keep teams moving efficiently.</p>
+                <span>Uniforms, safety &amp; supplies</span>
+                <h3>Office &amp; institutional supplies</h3>
+                <p>Uniforms, T-shirts, PPE and stationery for offices, schools and institutions.</p>
               </div>
             </article>
 
             <article class="product-card" id="product-gifting">
-              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80" alt="Black model showcasing branded promotional and gifting products" loading="lazy" />
+              <a href="#promotional-items" aria-label="Explore promotional items and corporate gifts">
+                <img class="supplies-image" src="assets/promo-corporate-gifts.jpeg" alt="Savannah branded promotional products and corporate gifts" loading="lazy" />
+              </a>
               <div class="product-copy">
                 <span>Gifting</span>
-                <h3>Promotional &amp; gifting</h3>
+                <h3>Promotional items &amp; gifting</h3>
                 <p>Thoughtful corporate gifts, event giveaways and keepsakes made to leave a memorable impression.</p>
               </div>
             </article>
@@ -494,7 +775,7 @@
               <p><span aria-hidden="true">*</span> Required fields</p>
               <button class="button button-gold" type="submit">Send your enquiry <span aria-hidden="true">↗</span></button>
             </div>
-            <p class="form-note">Submitting this form opens your email app with the enquiry details ready to send.</p>
+            <p class="form-note">Submitting this form opens your email app with the enquiry addressed to Savannah Brand Kenya.</p>
           </form>
         </div>
       </section>
@@ -516,12 +797,18 @@
             </svg>
             07 00 45 22 99
           </a>
+          <a class="footer-contact-link" href="https://wa.me/254700452299" target="_blank" rel="noopener noreferrer" aria-label="Message Savannah Brand Kenya on WhatsApp (opens in a new tab)">
+            WhatsApp <span aria-hidden="true">↗</span>
+          </a>
           <a class="footer-contact-link" href="mailto:savannahbrandkenya@gmail.com" aria-label="Email Savannah Brand Kenya at savannahbrandkenya@gmail.com">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <rect x="3" y="5" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="1.7" />
               <path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
             savannahbrandkenya@gmail.com
+          </a>
+          <a class="footer-contact-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=savannahbrandkenya%40gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Compose an email to Savannah Brand Kenya in Gmail (opens in a new tab)">
+            Gmail <span aria-hidden="true">↗</span>
           </a>
         </div>
         <a class="footer-top" href="#home">Back to top ↑</a>
@@ -544,6 +831,7 @@
           menuToggle.setAttribute("aria-expanded", "false");
           menuToggle.setAttribute("aria-label", "Open navigation menu");
           navMenu.classList.remove("is-open");
+          document.querySelector(".nav-solutions").removeAttribute("open");
         });
       });
 
@@ -564,7 +852,7 @@
             `Message: ${data.get("message")}`,
           ].join("\n"),
         );
-        window.location.href = `mailto:?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:savannahbrandkenya@gmail.com?subject=${subject}&body=${body}`;
       });
     </script>
   </body>
